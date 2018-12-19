@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Fahkwang', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    padding: 0%;
+    margin: 0;
+}
+
+/* ------------------ */
+/* Navigation Components */
+/* ------------------ */
+
+.logo {
+    height: 100px;
+}
+
+.navbar {
+    background-color: #ddd8d8;
+}
+
+.navbar-brand {
+    height:100px;
+    font-size: 0.6em;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 0.8em;
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #d63031;  
+}
+
+.nav-link li {
+    color: #ffffff;
+}
+
+.active .nav-link {
+    color: #d63031 !important;
+}
+
+/* ------------------ */
+/* Page Headers */
+/* ------------------ */
+
+.headers {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-header {
+    background-image:linear-gradient(rgb(103, 100, 100), rgba(0, 0, 0, 0.04)), url("images/background-home.png");
+}
+
+.about-header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.84), rgba(15, 13, 13, 0.31)), url("images/about-back.png");
+}
+
+.keyboard-header {
+    background-image: linear-gradient(rgba(80, 12, 12, 0.1), rgba(87, 7, 7, 0.61)), url("images/keyboards.png");
+}
+
+.mice-header {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(2, 0, 0, 0.12)), url("images/mice-back.png"); 
+}
+
+.headset-header {
+    background-image: linear-gradient(rgba(64, 62, 62, 0.61), rgba(160, 147, 147, 0.35)), url("images/headsets-back.png"); 
+}
+
+.chair-header {
+    background-image: linear-gradient(rgba(8, 8, 8, 0.5), rgba(10, 9, 9, 0.6)), url("images/chairs-back.png"); 
+}
+
+.contact-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(54, 51, 51, 0.55)), url("images/contact-back.png"); 
+}
+
+.sitemap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(54, 51, 51, 0.55)), url("images/sitemap-back.png"); 
+}
+
+.page-title, .page-title-mice, .page-title-headset, .page-desc, .about-desc, .product-page-desc,
+.mice-page-desc, .headset-page-desc{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Fahkwang";
+}
+
+.page-title {
+    margin-top: 25%;
+    margin-bottom: 5%;
+    font-size: 250%;
+}
+
+.page-title-mice {
+    margin-top: 80%;
+    margin-bottom: 5%;
+    font-size: 250%;
+}
+
+.page-title-headset {
+    margin-top: 50%;
+    margin-bottom: 5%;
+    font-size: 250%;
+}
+
+.home-desc, .about-desc, .product-page-desc, .mice-page-desc, .headset-page-desc {
+    font-size: 120%;
+}
+
+.about-desc {
+    margin-bottom: 25%;
+}
+
+.product-page-desc {
+    margin-bottom: 50%;
+}
+
+.mice-page-desc {
+    margin-bottom: 170%;
+}
+
+.headset-page-desc {
+    margin-bottom: 100%;
+}
+
+
+
+.site-btn {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.site-animation {
+    margin-top: 5%;
+}
+
+/* ------------------ */
+/* Products */
+/* ------------------ */
+
+.product-header, .product-title {
+    margin-top: 2%;
+    font-size: 150%;
+}
+
+.product-desc {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.product-features {
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    list-style-type: circle;
+    color: #000000;
+    padding: 5px;
+}
+
+.product-img {
+    height: 300px;
+    width: auto;
+}
+
+.product-display {
+    background-color: #000000;
+}
+/* ------------------ */
+/* Contact Us Page */
+/* ------------------ */
+.contact-title, .contact-desc {
+    color: #ffffff;
+    text-align: center;
+    
+}
+.contact-desc {
+    font-size: 1.2em;
+    margin-bottom: 3%;
+}
+
+.contact-title {
+    font-size: 2.4em;
+    margin-bottom: 2%;
+}
+
+.my-form {
+        color: #ffffff;
+    }
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+    }
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
+    }
+/* ------------------ */
+/* Sitemap List */
+/* ------------------ */
+
+.sitemap-content {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 50%;
+}
+
+.sitemap-content {
+    list-style: none;
+}
+
+.sitemap-content li a:link,
+.sitemap-content li a:visited {
+    color: #ff1414;
+    padding: 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+footer {
+	color: #d63031;
+    padding-top: 10px;
+    background-color: #ddd8d8;
+}
